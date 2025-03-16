@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Soluna_Mood_JournalApp: App {
+struct Soluna_App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IntroductoryView()
         }
     }
 }
